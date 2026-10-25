@@ -1,0 +1,19 @@
+import java.util.Scanner;
+/**
+*@autor Alison Ramirez
+*
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        // Consumir el salto de línea pendiente en el búfer de entrada
+        scan.nextLine(); 
+        String s = scan.nextLine();
+        
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
+}
