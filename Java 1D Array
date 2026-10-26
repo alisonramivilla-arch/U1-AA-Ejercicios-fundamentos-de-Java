@@ -1,5 +1,8 @@
 import java.util.*;
-
+/**
+*@autor Alison Ramirez
+*Java 1D Array
+*/
 public class Solution {
 
     public static void main(String[] args) {
@@ -7,7 +10,8 @@ public class Solution {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
         int[] a = new int[n];
-        for (int i = 0; i < n; i++) {
+        
+		for (int i = 0; i < n; i++) {
             a[i] = scan.nextInt();
         }
         scan.close();
