@@ -1,6 +1,9 @@
 import java.util.*;
 import java.io.*;
-
+/**
+*@autor Alison Ramirez
+*Java Loops II
+*/
 class Solution{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
