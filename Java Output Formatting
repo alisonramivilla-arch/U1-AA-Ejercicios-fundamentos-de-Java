@@ -1,7 +1,7 @@
 import java.util.Scanner;
 /**
 *@autor Alison Ramirez
-*
+*Java Output Formatting
 */
 public class Solution {
     public static void main(String[] args) {
@@ -12,6 +12,7 @@ public class Solution {
             int x = sc.nextInt();
             System.out.printf("%-15s%03d%n", s1, x);
         }
+        
         System.out.println("================================");
     }
 }
